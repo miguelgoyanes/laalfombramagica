@@ -1,0 +1,83 @@
+
+
+/* .imagenContainer {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.imagenFondo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+} */
+
+.imagenFondoHeader {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url('../../../assets/img/fondo-principal.jpg');
+    /* background-image: url('../../../assets/img/logo.png'); */
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .imagenFondoHeader {
+        background-image: url('../../../assets/img/fondo-principal-movil.jpg');
+        background-position: top;
+    }
+}
+
+.imagenLogo {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    .imagenLogo {
+        /* width: 50%; */
+        top: 60%;
+        left: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .imagenLogo {
+        /* width: 70%; */
+        top: 60%;
+        left: 50%;
+    }
+}
+
+.redesSociales {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 576px) {
+    .redesSociales {
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

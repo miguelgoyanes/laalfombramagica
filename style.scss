@@ -1,0 +1,29 @@
+// #083A87;
+
+// sustituimos el azul por purpura
+// $deeppurple: #311B92;
+// $primary: $deeppurple;
+
+@import './node_modules/bootstrap/scss/_functions';
+@import './node_modules/bootstrap/scss/_variables';
+
+
+// generamos un tema custum
+$almablue: #060221;
+$almared: #7D222A;
+$almared2: #D82C2C;
+$almagrey: #1F1F1F;
+
+$usc-colors: (
+    "almablue": $almablue,
+    "almared": $almared,
+    "almared2": $almared2,
+    "almagrey": $almagrey,
+);
+
+// asi añadimos los mastercolors al resto de los colores, en lugar de sustituirlos
+$theme-colors: map-merge($usc-colors, $theme-colors);
+
+// Importar las libresias fuente de bootstrap
+// Comenzar a hacer modificaciones
+@import './node_modules/bootstrap/scss/bootstrap'

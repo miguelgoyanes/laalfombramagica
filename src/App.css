@@ -1,0 +1,28 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 576px) {
+    .text-justify {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.text-oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+.efect-hover {
+    transition: transform 0.3s ease-in-out;
+}
+.efect-hover:hover {
+    transform: scale(1.05);
+}
+
+.efect-hover-gir {
+    transition: transform 0.3s ease-in-out;
+}
+.efect-hover-gir:hover {
+    transform: scale(1.2) rotate(15deg);
+}

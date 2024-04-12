@@ -1,0 +1,81 @@
+
+
+.backgroundBlur {
+    backdrop-filter: blur(3px);
+}
+
+.overlayFondo {
+    min-height: 800px;
+    /* padding: 100px; */
+    background-color: rgba(0, 0, 0, 0.50);
+    /* backdrop-filter: blur(2px); */
+}
+
+.portadaVideoYoutube {
+    width: 900px;
+    aspect-ratio: 16 / 9;
+    /* background-image: url('../../../assets/img/youtube.jpg'); */
+    /* background-size: cover;
+    background-position: center; */
+}
+
+@media (max-width: 768px) {
+    .contenedorCartel {
+        max-width: 300px;
+    }
+}
+
+.youtubeContainer {
+    position: relative;
+    
+    width: 900px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+@media (max-width: 992px) {
+    .youtubeContainer {
+        width: 700px;
+    }
+}
+@media (max-width: 768px) {
+    .youtubeContainer {
+        width: 500px;
+    }
+}
+@media (max-width: 576px) {
+    .youtubeContainer {
+        width: 90%;
+    }
+}
+
+.youtubeFondo {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.youtubeContainer:hover .youtubeFondo {
+    transform: scale(1.1); 
+}
+
+.youtubePlay {
+    position: absolute; 
+    font-size: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 992px) {
+    .youtubePlay {
+        font-size: 100px;
+    }
+}
+@media (max-width: 576px) {
+    .youtubePlay {
+        font-size: 70px;
+    }
+}
