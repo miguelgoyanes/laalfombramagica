@@ -12,6 +12,9 @@ import iconGuitarra from './img/iconos/guitarra.png'
 import iconBaquetas from './img/iconos/baquetas.png'
 import iconBajo from './img/iconos/bajo.png'
 
+// import error404 from './img/error404-2.png'
+import error404 from './img/error404.png'
+
 export default {
     "logo": logo,
     "fotoYouTube": fotoYouTube,
@@ -26,4 +29,7 @@ export default {
     "iconGuitarra": iconGuitarra,
     "iconBaquetas": iconBaquetas,
     "iconBajo": iconBajo,
+
+    "error404": error404,
+
 }

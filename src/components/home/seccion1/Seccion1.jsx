@@ -1,7 +1,6 @@
 import Cartel from "./Cartel";
 import imagenes from '../../../assets/imagenes.js'
 import styles from "./Seccion.module.css";
-import { Link } from "react-router-dom";
 
 const Seccion1 = () => {
     return (
@@ -9,14 +8,10 @@ const Seccion1 = () => {
             <article className="container my-5 ">
                 {/* <div className={styles.backgroundBlur}> */}
                 <p className="text-justify">
-                    Somos unha banda de Indie Rock nacida en Lugo no ano 2022.
+                    Somos una banda de Indie Rock nacida en Lugo en el año 2022.
                 </p>
                 <p className="text-justify">
-                    A nosa música, impregnada de tons reflexivos e sentimentais, explora
-                    temas intrusivos que abordan os medos, o inexorable paso do tempo e a
-                    complexidade do amor. Dende momentos enerxéticos e cargados de
-                    overdrive ata delicadas interpretacións acústicas, "La Alfombra
-                    Mágica" trae unha experiencia musical fresca e inédita.
+                    Nuestra música, impregnada de tonos reflexivos y sentimentales, explora temas intrusivos que abordan los miedos, el inexorable paso del tiempo y la complejidad del amor. Desde momentos enérgicos y cargados de overdrive hasta delicadas interpretaciones acústicas, "La Alfombra Mágica" trae una experiencia musical fresca e inédita.
                 </p>
                 {/* </div>--bs-gutter-x: 0; */}
             </article>
@@ -41,6 +36,7 @@ const Seccion1 = () => {
                         hora='22.30'
                         texto='Concierto en Sala Jagger'
                         ubicacion='https://maps.app.goo.gl/gYDvrgzUNjf95ryM6'
+                        // linkEntradas='https://entradas.ticketrona.com/events/la-alfombra-magica-en-sala-jagger-lugo'
                     />
                     <Cartel
                         imagen={imagenes.cartel03022024}
@@ -52,9 +48,6 @@ const Seccion1 = () => {
                     />
                 </div>
             </article>
-            <Link to='/qr'>
-                pruebas
-            </Link>
         </section>
     );
 };

@@ -1,6 +1,6 @@
 import styles from "./Seccion.module.css";
 
-const Cartel = ({ imagen, diaSemana, fecha, hora, texto, ubicacion }) => {
+const Cartel = ({ imagen, diaSemana, fecha, hora, texto, ubicacion, linkEntradas }) => {
     return (
         <div className={`row ${styles.contenedorCartel}`}>
             <div className="col">
@@ -21,6 +21,11 @@ const Cartel = ({ imagen, diaSemana, fecha, hora, texto, ubicacion }) => {
                         <i className="bi bi-geo-alt"></i>
                     </a>
                 </div>
+                {linkEntradas && (
+                    <div className="my-4">
+                        <a href={linkEntradas} target="black" className="text-decoration-none btn btn-almared">Comprar entradas</a>
+                    </div>
+                )}
             </div>
             <div className="col d-flex justify-content-center">
                 {/* <img src={`../../../public/img/${url}`} alt="" style={{ maxWidth: '300px' }} /> */}

@@ -5,13 +5,7 @@ import IntegranteIzquierda from './IntegranteIzquierda'
 const Integrantes = () => {
   const arrayIntegrantes = [{
     titulo: 'Ben Rose',
-    texto: `Ben Rose, fillo dun guitarrista e criado en Estados Unidos con raíces
-    galegas, entrou no mundo da música dende temperana idade.A los
-    8 años, descubriu a súa paixón pola música como autodidacta,
-    comezando a compoñer os seus propios temas.Dende aquela,
-    recorreu un camiño musical variado, dende a súa participación no
-    grupo de rock alternativo Black Rose e tras a súa disolución,
-    comezou en un novo proxecto, "La Alfombra Mágica".`,
+    texto: `Ben Rose, hijo de un guitarrista y criado en Estados Unidos con raíces gallegas, entró en el mundo de la música desde temprana edad. A los 8 años, descubrió su pasión por la música como autodidacta, comenzando a componer sus propios temas. Desde entonces, ha recorrido un camino musical variado, desde su participación en el grupo de rock alternativo Black Rose y tras su disolución, comenzó en un nuevo proyecto, "La Alfombra Mágica".`,
     // url: '../../../public/img/ben-rose.jpg',
     imagen: 'imgDescripcionBenRose',
     // icon: '../../../public/img/iconos/micro.png',
@@ -20,42 +14,21 @@ const Integrantes = () => {
     derecha: true
   }, {
     titulo: 'Carlota Corredoira',
-    texto: `A vida de Carlota Corredoira está marcada polo seu amor e paixón
-    pola música. Dende unha idade tempérana amosou un interese pola
-    guitarra, estudando así no Conservatorio local.
-    Graduouse como educadora infantil pola USC, e agora da clases
-    nunha escola de música local.
-    A guitarrista de La Alfombra Mágica tamén é amante do surf e do
-    ximnasio.`,
+    texto: `La vida de Carlota Corredoira está marcada por su amor y pasión por la música. Desde una edad temprana mostró un interés por la guitarra, estudiando así en el Conservatorio local. Se graduó como educadora infantil por la USC, y ahora imparte clases en una escuela de música local. La guitarrista de La Alfombra Mágica también es amante del surf y del gimnasio.`,
     imagen: 'imgDescripcionCarlota',
     icon: 'iconGuitarra',
     instagram: 'https://www.instagram.com/tota_cb?igsh=ZHZnMzQ2aDI2NHZ6',
     derecha: false
   }, {
     titulo: 'Sira Goyanes',
-    texto: `Sira é estudante de Comunicación Audiovisual, pero a música forma
-    parte da súa vida dende que ten memoria. Empeza a tocar a batería
-    aos catro anos e a guitarra a os sete.
-    Sira, aficionada ao futsal e ao snow, actualmente é profesora de
-    percusión nunha escola de música e a súa vida esta enlazada con
-    esta disciplina artística por completo, formando parte de grupos de
-    batucada, de bandas, compoñendo e cantando de forma
-    autodidacta e enfocada neste grupo por completo, xa que, ademais
-    de ser unha diversión e un soño.`,
+    texto: `Sira es estudiante de Comunicación Audiovisual, pero la música forma parte de su vida desde que tiene memoria. Comenzó a tocar la batería a los cuatro años y la guitarra a los siete. Sira, aficionada al futsal y al snowboard, actualmente es profesora de percusión en una escuela de música y su vida está completamente vinculada con esta disciplina artística. Forma parte de grupos de batucada, de bandas, compone y canta de forma autodidacta y enfocada en este grupo por completo, ya que además de ser una diversión, es un sueño para ella.`,
     imagen: 'imgDescripcionSira',
     icon: 'iconBaquetas',
     instagram: 'https://www.instagram.com/sira_13?igsh=OXhzNWQ2czFhZjNo&utm_source=qr',
     derecha: true
   }, {
     titulo: 'Diana Abad',
-    texto: `A vida de Diana empeza a relacionarse coa música dende pequena.
-    Aos 11 anos comeza a tocar o contrabaixo na orquestra sinfónica dos
-    Altos Mirandinos en Venezuela. En San Antonio dos Altos formou
-    parte dunha big band, dun grupo de rock e dun grupo de latino.
-    Posteriormente veuse a vivir a España e seguiu en contacto coa
-    música en diferentes grupos como baixista e contrabaixista.
-    Actualmente estuda no Conservatorio superior da Coruña e forma
-    parte da orquestra Os Españois e do grupo La Alfombra Mágica.`,
+    texto: `La vida de Diana comienza a relacionarse con la música desde pequeña. A los 11 años empieza a tocar el contrabajo en la orquesta sinfónica de los Altos Mirandinos en Venezuela. En San Antonio de los Altos formó parte de una big band, de un grupo de rock y de un grupo de música latina. Posteriormente, se trasladó a vivir a España y siguió en contacto con la música en diferentes grupos como bajista y contrabajista. Actualmente estudia en el Conservatorio Superior de A Coruña y forma parte de la orquesta Os Españois y del grupo La Alfombra Mágica.    `,
     imagen: 'imgDescripcionDiana',
     icon: 'iconBajo',
     instagram: 'https://www.instagram.com/diana_abad23?igsh=MWRqZWYxdWJzcGxhOA==',
